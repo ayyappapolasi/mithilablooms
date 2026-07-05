@@ -164,7 +164,6 @@ a { text-decoration: none; color: inherit; }
   background: transparent;
   transition: var(--transition);
   padding: 18px 0;
-  top: 42px; /* sits below the construction banner (~42px tall) */
 }
 
 #mainNav.scrolled {
