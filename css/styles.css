@@ -729,6 +729,23 @@ a { text-decoration: none; color: inherit; }
   line-height: 1.65;
 }
 
+.contact-link {
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-link:hover {
+  color: var(--green-main);
+}
+
+.contact-link i {
+  color: var(--green-main);
+  font-size: 1rem;
+}
+
 .social-btn {
   width: 40px;
   height: 40px;
